@@ -1,0 +1,13 @@
+{
+  "cookieAction":{
+    "Accept":"confirmation",
+    "Decline" : "decline"
+  },
+  "languageDropdown":{
+    "0":"Select Language",
+    "1":"English",
+    "2":"Français",
+    "3":"Deutsch",
+    "4":"Español"
+  }
+}
