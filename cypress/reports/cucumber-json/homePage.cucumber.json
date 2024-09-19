@@ -1,0 +1,222 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate the successful registration flow",
+    "line": 1,
+    "id": "validate-the-successful-registration-flow",
+    "tags": [],
+    "uri": "homePage.feature",
+    "elements": [
+      {
+        "id": "validate-the-successful-registration-flow;validate-the-registration-flow",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Validate the registration flow",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to preprod environment for site trueTalent",
+            "result": {
+              "status": "passed",
+              "duration": 3307000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I close the information banner",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on Register",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on I'm a candidate",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should see text Upload Your Resume",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I upload the resume",
+            "result": {
+              "status": "passed",
+              "duration": 6278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept the terms and conditions",
+            "result": {
+              "status": "passed",
+              "duration": 392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should see text TrueTalent Resume Reader",
+            "result": {
+              "status": "passed",
+              "duration": 721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I accept true talent reader condition",
+            "result": {
+              "status": "passed",
+              "duration": 10127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should see text Personal Details",
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill the text in the registration form",
+            "result": {
+              "status": "passed",
+              "duration": 1485000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I enter location and select from suggetion box",
+            "result": {
+              "status": "passed",
+              "duration": 703000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I enter summary in the Professional experience field",
+            "result": {
+              "status": "passed",
+              "duration": 962000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I select skill Java and experience of 4 year",
+            "result": {
+              "status": "passed",
+              "duration": 390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I click on Add Education",
+            "result": {
+              "status": "passed",
+              "duration": 158000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should see text School/University/Institution",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "I enter education details",
+            "result": {
+              "status": "passed",
+              "duration": 1627000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I click on Save",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "I should see text Personal Details",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I click on Next",
+            "result": {
+              "status": "passed",
+              "duration": 313000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

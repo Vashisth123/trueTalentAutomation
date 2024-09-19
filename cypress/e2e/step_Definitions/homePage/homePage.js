@@ -1,7 +1,7 @@
 export class homePage{
-acceptCookie(status){
+closeBanner(status){
 
-    cy.get(`#hs-eu-${status}-button`).click();
+    cy.get('.close-btn').eq(1).click({force: true});
 }
 validateLanguageDropdown(index , value){
    for(let i =0; i<index.length; i++){
@@ -12,7 +12,7 @@ validateLanguageDropdown(index , value){
 };
 closeContent(){
     cy.get('.close').should('not.be.visible');
-}
+};
 
 
 }

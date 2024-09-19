@@ -4,16 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "cypress:run": "cypress run",
+    "generate-report": "node cucumber-html-report.js"
+    },
   "author": "Punit Vashisth",
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.13.2",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-file-upload": "^5.0.8",
+    "mocha": "^10.7.3",
+    "multiple-cucumber-html-reporter": "^3.7.0"
   },
-    "cypress-cucumber-preprocessor": {
+  "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": false,
-    "step_definitions": "cypress/e2e/step_Definitions/"
+    "step_definitions": "cypress/e2e/step_Definitions/",
+    "cucumberJson": {
+   "generate": true,
+   "outputFolder": "cypress/reports/cucumber-json",
+   "filePrefix": "",
+   "fileSuffix": ".cucumber"
+  }
   }
 }

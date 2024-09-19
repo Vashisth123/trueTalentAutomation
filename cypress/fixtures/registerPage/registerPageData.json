@@ -1,0 +1,26 @@
+{
+    "inputField":{
+        "first_name":"Punit",
+        "last_name":"vashisth",
+        "email":"puneet.vashisth@gmail.com",
+        "contact":"9871928007"
+        
+
+    },
+        "location":{
+        "inputLocation":"Noida",
+         "suggestedLoc":"Noida, Uttar Pradesh"
+        },
+        "Summary":{
+            "className":"ql-editor",
+            "enterDetails":"I am qualified cypress automation engineer"
+        },
+        "educationDetails":{
+            "University":"Delhi University",
+            "Degree":"B.tech",
+            "startDate":"01052006",
+            "endDate":"01052010"
+        }
+    
+    
+}

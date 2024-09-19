@@ -23,14 +23,16 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+import 'cypress-file-upload';
+
 Cypress.Commands.add('navigateToURL', (env)=>{
 let baseurl;
 switch(env){
     case 'prod':
-        baseurl= 'https://www.parasoft.com/';
+        baseurl= 'https://truetalent.io/';
     break;
-    case 'stage' :
-        baseurl='https://stg.parasoft.com/';
+    case 'preprod' :
+        baseurl='https://projecttrut.truetalent.io/';
     break;
     default :
      throw new Error('Unknown ENvironment:' +env);

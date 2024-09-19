@@ -5,6 +5,9 @@ const commonComp = new common();
 When(/^I click on (.*$)/, (text)=>{
     commonComp.clickOnText(text);
     });
+    When(/^I force click on (.*$)/, (text)=>{
+        commonComp.clickForceOnText(text);
+        });
 
 Then(/^I should see text (.*)$/, (text)=>{
 commonComp.validateText(text);

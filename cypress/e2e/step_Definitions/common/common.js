@@ -6,6 +6,9 @@ export class common{
     clickOnText(text){
         cy.contains(text).click();
     };
+    clickForceOnText(text){
+        cy.contains(text).click({force:true});
+    };
     validateLink(linkName, link){
         cy.contains(linkName).should('have.attr', 'href', link);
     }
