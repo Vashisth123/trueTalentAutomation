@@ -22,7 +22,7 @@
             "name": "I navigate to preprod environment for site trueTalent",
             "result": {
               "status": "passed",
-              "duration": 3307000000
+              "duration": 5269000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I close the information banner",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 114000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I click on Register",
             "result": {
               "status": "passed",
-              "duration": 160000000
+              "duration": 166000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I click on I'm a candidate",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 121000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I should see text Upload Your Resume",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 28000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I upload the resume",
             "result": {
               "status": "passed",
-              "duration": 6278000000
+              "duration": 6306000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I should see text TrueTalent Resume Reader",
             "result": {
               "status": "passed",
-              "duration": 721000000
+              "duration": 95000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "I accept true talent reader condition",
             "result": {
               "status": "passed",
-              "duration": 10127000000
+              "duration": 10129000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I should see text Personal Details",
             "result": {
               "status": "passed",
-              "duration": 32000000
+              "duration": 29000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I fill the text in the registration form",
             "result": {
               "status": "passed",
-              "duration": 1485000000
+              "duration": 1538000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I enter location and select from suggetion box",
             "result": {
               "status": "passed",
-              "duration": 703000000
+              "duration": 777000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "I enter summary in the Professional experience field",
             "result": {
               "status": "passed",
-              "duration": 962000000
+              "duration": 905000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I click on Add Education",
             "result": {
               "status": "passed",
-              "duration": 158000000
+              "duration": 166000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "I should see text School/University/Institution",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 27000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "I enter education details",
             "result": {
               "status": "passed",
-              "duration": 1627000000
+              "duration": 1671000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "I click on Save",
             "result": {
               "status": "passed",
-              "duration": 147000000
+              "duration": 142000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I should see text Personal Details",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 59000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "I click on Next",
             "result": {
               "status": "passed",
-              "duration": 313000000
+              "duration": 295000000
             }
           }
         ]

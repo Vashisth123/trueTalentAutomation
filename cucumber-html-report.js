@@ -1,8 +1,14 @@
 const report = require('multiple-cucumber-html-reporter');
+const moment = require('moment');
+
+const executionStartTime = moment().format('MMMM Do YYYY, h:mm:ss A');
+const executionEndTime = moment().add(30, 'minutes').format('MMMM Do YYYY, h:mm:ss A');
 
 report.generate({
 	jsonDir: 'cypress/reports/cucumber-json/',
 	reportPath: 'cypress/reports/cucumber-html',
+    reportTitle: 'Latest Execution',
+    overwrite: true,
 	metadata:{
         browser: {
             name: 'chrome',
@@ -20,8 +26,8 @@ report.generate({
             {label: 'Project', value: 'Custom project'},
             {label: 'Release', value: '1.2.3'},
             {label: 'Cycle', value: 'B11221.34321'},
-            {label: 'Execution Start Time', value: 'Nov 19th 2017, 02:31 PM EST'},
-            {label: 'Execution End Time', value: 'Nov 19th 2017, 02:56 PM EST'}
+            {label: 'Execution Start Time', value: executionStartTime},
+            {label: 'Execution End Time', value: executionEndTime}
         ]
     }
 });
