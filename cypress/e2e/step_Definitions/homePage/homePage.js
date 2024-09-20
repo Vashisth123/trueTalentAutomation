@@ -1,7 +1,8 @@
+import { homeLocators } from "../../locators/locators";
 export class homePage{
 closeBanner(status){
 
-    cy.get('.close-btn').eq(1).click({force: true});
+    cy.get(homeLocators.bannerClose).eq(1).click({force: true});
 }
 validateLanguageDropdown(index , value){
    for(let i =0; i<index.length; i++){
@@ -11,7 +12,7 @@ validateLanguageDropdown(index , value){
    cy.get('select').select(index[1]);
 };
 closeContent(){
-    cy.get('.close').should('not.be.visible');
+    cy.get(homeLocators.crossButton).should('not.be.visible');
 };
 
 
