@@ -2,7 +2,7 @@ import { homeLocators } from "../../locators/locators";
 export class homePage{
 closeBanner(status){
 
-    cy.get(homeLocators.bannerClose).eq(1).click({force: true});
+    cy.get(homeLocators.bannerClose).click({force: true});
 }
 validateLanguageDropdown(index , value){
    for(let i =0; i<index.length; i++){
